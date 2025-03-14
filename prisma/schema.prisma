@@ -13,18 +13,16 @@ datasource db {
   url      = env("POSTGRES_URL")
 }
 
-
 enum SeverityLevel {
   LOW
   MEDIUM
   HIGH
 }
 
-
 model logModel {
-  id Int @id @default(autoincrement())
-  message String
-  origin String
-  level SeverityLevel
-  createdAt DateTime @default(now())
+  id        Int           @id @default(autoincrement())
+  message   String
+  origin    String
+  level     SeverityLevel
+  createdAt DateTime      @default(now())
 }

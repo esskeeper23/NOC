@@ -1,6 +1,5 @@
 import 'dotenv/config'
 import * as env from 'env-var'
-import { prototype } from 'events'
 
 
 export const envs = {

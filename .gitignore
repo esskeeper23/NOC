@@ -8,5 +8,7 @@ logs/
 
 
 mongo/
-
 postgres/
+mongo-test/
+postgres-test/
+coverage/
